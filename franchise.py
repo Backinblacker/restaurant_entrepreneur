@@ -1,5 +1,9 @@
+from order_factory import OrderFactory
+
 class Franchise:
     def __init__(self, store_number):
-        pass
+        self.store_number = store_number
     def place_order():
-        pass
+        order = OrderFactory()
+        order.create_order(input(""))
+        

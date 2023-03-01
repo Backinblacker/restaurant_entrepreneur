@@ -1,9 +1,9 @@
 class Logger:
-    def __init__(self, transaction_count, daily_sales):
-        self.transaction_count = None
-        self.daily_sales = None
+    def __init__(self):
+        self.transaction_count = 1
+        self.daily_sales = 0
     
-    def log_transaction (order, sale):
+    def log_transaction (order, location_number):
         pass
         
 
@@ -16,3 +16,8 @@ class Logger:
 
 # Wrtie the message and then close it
 # file.close()
+
+# Output will look like
+    # Transaction #1 : Order at Location X - $15 Total: $15
+    # Transaction #2 : Order at Location X - $15 Total: $30
+    # Transaction #3 : Order at Location X - $15 Total: $45
