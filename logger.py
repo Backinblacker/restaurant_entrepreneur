@@ -1,5 +1,11 @@
 class Logger:
-    pass
+    def __init__(self, transaction_count, daily_sales):
+        self.transaction_count = None
+        self.daily_sales = None
+    
+    def log_transaction (order, sale):
+        pass
+        
 
 # a is append w is overwrite and r is readme
 # file = open("log.txt", "r")
