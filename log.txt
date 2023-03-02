@@ -1,0 +1,1 @@
+Transaction #1: Pizza at Store Number 1: $30. Total: $30

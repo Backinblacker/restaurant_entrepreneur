@@ -7,7 +7,7 @@ class Franchise:
     
     def place_order(self):
         order = input("""Welcome to 3 Dishes Restaurant. What would you like to order?
-        Please enter an order of Pasta, Pizza, or Salad: 
+        Please enter an order of Pasta 🍝, Pizza 🍕, or Salad 🥗: 
         \n""")
         orders = OrderFactory.create_order(order)
         logger.log_transaction(orders, self.location_number)

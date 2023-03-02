@@ -13,3 +13,14 @@ class OrderFactory():
             return Salad()
         else:
             print("This is not a valid input.")    
+
+# Attempting to handle bad user_input
+
+# from valid_order import ValidOrder
+
+# class OrderFactory():
+#     @staticmethod
+#     def create_order():
+#         dishes = [Pizza(), Pasta(), Salad()]
+#         order = ValidOrder.order_validation(dishes)
+#         return dishes
